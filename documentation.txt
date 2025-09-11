@@ -6,3 +6,10 @@ git push origin main
 *******
 Use template.py file to create project structure
 *******
+How to run ? 
+conda create -n venv python=3.12.2 -y
+conda activate venv
+pip install -r requirements.txt
+*******
+-e . at end of requirements.txt file - looks for setup.py file and considers our us-visa dir as local package
+__init__.py treats our folder as local package
