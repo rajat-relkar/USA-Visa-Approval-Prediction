@@ -1,0 +1,8 @@
+*******
+git clone repoLink.git
+git add .
+git commit -m "commit-message"
+git push origin main
+*******
+Use template.py file to create project structure
+*******
