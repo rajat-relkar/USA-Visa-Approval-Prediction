@@ -13,3 +13,8 @@ pip install -r requirements.txt
 *******
 -e . at end of requirements.txt file - looks for setup.py file and considers our us-visa dir as local package
 __init__.py treats our folder as local package
+*******
+
+### Setup mongo db
+copy connection string
+
