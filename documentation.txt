@@ -18,3 +18,5 @@ __init__.py treats our folder as local package
 ### Setup mongo db
 copy connection string
 
+### Create notebooks for experiments
+
