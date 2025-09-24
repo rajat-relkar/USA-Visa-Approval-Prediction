@@ -20,3 +20,22 @@ copy connection string
 
 ### Create notebooks for experiments
 
+### DATA INGESTION
+
+## Workflow:
+1. Create project structure using template.py 
+2. Do experiments in the notebook folders
+3. Write logger and exception handling scripts
+4. update constants folder
+5. update entity folder
+6. To make mongo db connection, create connection file in configuration folder
+    run cmd: export MONGODB_URL = "connection string"
+7. create data_access folder inside us_visa: to convert data which is in dict form in mongodb to a dataframe
+8. work on components
+9. components - data INGESTION
+10. work on pipelines
+
+
+
+
+
